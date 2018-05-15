@@ -2,7 +2,7 @@ $(function () { // this is a shortcut for document ready
     
 	var s = Snap("#svg")
 	
-	var height = (document.documentElement.clientHeight)*.9
+	var height = (document.documentElement.clientHeight)*.5
 
 	
 
@@ -10,7 +10,7 @@ $(function () { // this is a shortcut for document ready
 	    var counter = 0;
 	    
 		var oldX1 = 200
-	    var oldX2 = 400; //svg width is hardcoded as 600
+	    var oldX2 = 500; //svg width is hardcoded as 600
 	    var	oldY1 = height-20;//svg height is hardcoded as 600
 	    var	oldY2 = height-20;
 	    s.text(oldX1, height, "Tit for Tat")
@@ -92,9 +92,10 @@ $(function () { // this is a shortcut for document ready
 
 
 	    
-	    $('.right_column, #next').click(function () {
-	    	$("#next").text("Next step")
-	    	$('#content').text(data[counter].text)
+	    $('#next').click(function () {
+	    	$("#next span").text("Next step")
+	    	$('p').hide()
+	    	$('#content').css("display","block").text(data[counter].text)
 	    	
 	        console.log(counter)
 	    	$(".circle").attr({visibility: "hidden"})
@@ -104,15 +105,7 @@ $(function () { // this is a shortcut for document ready
 			counter = (counter + 1) ;// increment your counter
 	        // the modulus (%) operator resets the counter to 0
 	        // when it reaches the length of the array
-	      	if (counter == data.length){
-	      		counter = counter
-	        	$('button').css('opacity',0.5);
-	        	$('button').on('mouseover', function() {
-	        		$('button').css('opacity', 1)
-	        	}).on('mouseout', function() {
-	        		$('button').css('opacity', 0.5)
-	        	})
-	        }
+
 	    }); // end of click
 
 	})// end of data

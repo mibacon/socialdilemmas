@@ -49,7 +49,7 @@ li a.selected {
     color:#FFF;
 
 }
-li a #hit {
+.hit {
     border-bottom: 4px solid;
     color:white;
 }
@@ -72,13 +72,11 @@ li a #hit {
 }
 
 
-#hit {
+.top_navigation #hit {
     border-bottom: 4px solid;
 }
 
 
-
-    
 #title {
     color:#FFF;
 }
@@ -86,71 +84,40 @@ li a #hit {
     font-size: 36px;
     font-weight: bold;
 }
-#subtitle {
+#subtitle, #content {
     margin-top: 5px;
     font-size: 36px;
     color: gray;
     width: 50vw;
     line-height: 40px;
-}
-
-.graphcontent {
-    display: flex;
-    flex-direction: row;
+    min-height: 150px;
 }
 
 
-#event {
-    margin: 50px;
-    width: 50vw;
-}
-/*#firstTitle {
-    font-size: 30px;
-}*/
 
-/*ul {
-    list-style-type: none;
-    padding-left: 0px;
-    line-height: 30px;
-}
-
-.container {
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
-     /*align-items: stretch;
-     /*align-content:space-between;
-}
-
-.first_column {
-    /*align-self: flex-start;
-    margin-left: 20px;
-    margin-right: 20px;
+.graph{
     display: flex;
     flex-direction: column;
-    /*align-content:space-between;
-    height:90vh;
-    /*align-items: center;*//*justify-content: space-between;
-    max-width: 45vw;
-    min-width: 45vw;
-    justify-content: space-between;
-}*/
+    /*justify-content: flex-end;*/
 
+}
 #next {
     margin-top: 20px;
+    font-weight: bold;
 }
 
-#next:hover {
-    font-weight: bold;
+#next span:hover {
+    border-bottom: 4px solid;
     cursor: pointer;
 }
 #contet {
     margin:50px;
 }
+
 #svg {
-    width:90vh;
-    height:90vh;
+    height: 70vh;
     cursor: pointer;
+    overflow: visible;
 }
 button {
     border:none;
