@@ -1,0 +1,51 @@
+[
+  {
+    "step": 0,
+    "player1": "c",
+    "player2": "d",
+    "text": "Pavlov starts off cooperating",
+    "image": "http://sites.sinauer.com/animalcommunication2e/images/13/WT13.1.Fig4.jpg"
+  },
+  {
+    "step": 1,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner defected in previous round, Pavlov received a 'sucker' so Pavlov switches strategies and defects this round",
+    "image": "http://www.laits.utexas.edu/~anorman/05/game.gif"
+  },
+  {
+    "step": 2,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, Pavlov received a 'temptation' so Pavlov sticks with strategy and defects this round",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPzK8bwcc7wRvQVCUARN0OXJUYFEIApricnqxbuh5svTl5dwNf"
+  },
+  {
+    "step": 3,
+    "player1": "d",
+    "player2": "d",
+    "text": "Partner cooperated in previous round, Pavlov received a 'temptation' so Pavlov sticks with strategy and defects this round",
+    "image": "http://sites.sinauer.com/animalcommunication2e/images/13/WT13.1.Fig4.jpg"
+  },
+  {
+    "step": 4,
+    "player1": "c",
+    "player2": "c",
+    "text": "Partner defected in previous round, Pavlov received a 'punishment' so Pavlov switches strategies and cooperates this round",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPzK8bwcc7wRvQVCUARN0OXJUYFEIApricnqxbuh5svTl5dwNf"
+  },
+  {
+    "step": 5,
+    "player1": "c",
+    "player2": "d",
+    "text": "Partner cooperated in previous round, Pavlov received a 'reward' so Pavlov sticks with strategy and cooperates this round",
+    "image": "http://sites.sinauer.com/animalcommunication2e/images/13/WT13.1.Fig4.jpg"
+  },
+  {
+    "step": 6,
+    "player1": "d",
+    "player2": "d",
+    "text": "Partner defected in previous round, Pavlov received a 'sucker' so Pavlov switches strategies and defects this round",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPzK8bwcc7wRvQVCUARN0OXJUYFEIApricnqxbuh5svTl5dwNf"
+  }
+]

@@ -1,0 +1,90 @@
+[
+    [
+    {
+      "step": 0,
+      "player1": "c",
+      "player2": "c",
+      "text": "Collective Strategy starts off cooperating"
+    },
+    {
+      "step": 1,
+      "player1": "d",
+      "player2": "c",
+      "text": "Collective Strategy then defects"
+    },
+    {
+      "step": 2,
+      "player1": "d",
+      "player2": "c",
+      "text": "Partner cooperated in first round AND cooperated in second round. Does not match Collective Strategy's behavior. Collective Strategy defects indefinitely."
+    },
+    {
+      "step": 3,
+      "player1": "d",
+      "player2": "d",
+      "text": "Partner cooperated in first round AND cooperated in second round. Does not match Collective Strategy's behavior. Collective Strategy defects indefinitely."
+    },
+    {
+      "step": 4,
+      "player1": "d",
+      "player2": "c",
+      "text": "Partner cooperated in first round AND cooperated in second round. Does not match Collective Strategy's behavior. Collective Strategy defects indefinitely."
+    },
+    {
+      "step": 5,
+      "player1": "d",
+      "player2": "c",
+      "text": "Partner cooperated in first round AND cooperated in second round. Does not match Collective Strategy's behavior. Collective Strategy defects indefinitely."
+    },
+    {
+      "step": 6,
+      "player1": "d",
+      "player2": "d",
+      "text": "Partner cooperated in first round AND cooperated in second round. Does not match Collective Strategy's behavior. Collective Strategy defects indefinitely."
+    }
+  ],
+    [
+    {
+      "step": 0,
+      "player1": "c",
+      "player2": "c",
+      "text": "Collective Strategy starts off cooperating"
+    },
+    {
+      "step": 1,
+      "player1": "d",
+      "player2": "d",
+      "text": "Collective Strategy then defects"
+    },
+    {
+      "step": 2,
+      "player1": "c",
+      "player2": "c",
+      "text": "Partner cooperated in first round AND defected in second round. Matches Collective Strategy's behavior. Collective Strategy will cooperate until betrayed."
+    },
+    {
+      "step": 3,
+      "player1": "c",
+      "player2": "c",
+      "text": "Partner cooperated in first round AND defected in second round. Matches Collective Strategy's behavior. Collective Strategy will cooperate until betrayed."
+    },
+    {
+      "step": 4,
+      "player1": "c",
+      "player2": "c",
+      "text": "Partner cooperated in first round AND defected in second round. Matches Collective Strategy's behavior. Collective Strategy will cooperate until betrayed."
+    },
+    {
+      "step": 5,
+      "player1": "c",
+      "player2": "c",
+      "text": "Partner cooperated in first round AND defected in second round. Matches Collective Strategy's behavior. Collective Strategy will cooperate until betrayed."
+    },
+    {
+      "step": 6,
+      "player1": "c",
+      "player2": "c",
+      "text": "Partner cooperated in first round AND defected in second round. Matches Collective Strategy's behavior. Collective Strategy will cooperate until betrayed."
+    }
+  ]
+]

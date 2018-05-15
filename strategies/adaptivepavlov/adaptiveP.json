@@ -1,0 +1,178 @@
+[
+    [
+    {
+      "step": 0,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP starts off cooperating"
+    },
+    {
+      "step": 1,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 2,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 3,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 4,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 5,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 6,
+      "player1": "c",
+      "player2": "c",
+      "text": "In past six rounds, partner cooperated 6 times. Partner categorized as Cooperator. AdaptivePavlov will cooperate."
+    }
+  ],
+    [
+        {
+      "step": 0,
+      "player1": "c",
+      "player2": "d",
+      "text": "AdaptiveP starts off cooperating"
+    },
+    {
+      "step": 1,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 2,
+      "player1": "c",
+      "player2": "d",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 3,
+      "player1": "c",
+      "player2": "d",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 4,
+      "player1": "c",
+      "player2": "d",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 5,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 6,
+      "player1": "d",
+      "player2": "d",
+      "text": "In past six rounds, partner defected more than 4 times. Partner categorized as Defector. AdaptivePavlov will defect."
+    }
+  ], 
+      [
+        {
+      "step": 0,
+      "player1": "c",
+      "player2": "d",
+      "text": "AdaptiveP starts off cooperating"
+    },
+    {
+      "step": 1,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 2,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 3,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 4,
+      "player1": "c",
+      "player2": "d",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 5,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 6,
+      "player1": "d",
+      "player2": "d",
+      "text": "In past six rounds, partner defected more less than 3 times. Partner categorized as Random. AdaptivePavlov will defect."
+    }
+  ],
+      [
+        {
+      "step": 0,
+      "player1": "c",
+      "player2": "d",
+      "text": "AdaptiveP starts off cooperating"
+    },
+    {
+      "step": 1,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 2,
+      "player1": "c",
+      "player2": "d",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 3,
+      "player1": "c",
+      "player2": "d",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 4,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 5,
+      "player1": "c",
+      "player2": "c",
+      "text": "AdaptiveP continues to cooperate"
+    },
+    {
+      "step": 6,
+      "player1": "c",
+      "player2": "d",
+      "text": "In past six rounds, partner defected exactly 3 times. Partner categorized as Suspicious Tit for Tat. Since in the past two moves, partner cooperated, AdaptivePavlov will cooperate."
+    }
+  ]
+]
