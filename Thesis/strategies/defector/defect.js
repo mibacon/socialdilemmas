@@ -1,12 +1,12 @@
 $(function () { // this is a shortcut for document ready
     
 	var s = Snap("#svg")
-	var height = (document.documentElement.clientHeight)*.9
+	var height = (document.documentElement.clientHeight)*.5
 	
     $.getJSON("./defect.json", function(data) {
 	    var counter = 0;
-	    var oldX1 = 240
-	    var oldX2 = 360; //svg width is hardcoded as 600
+	    var oldX1 = 300
+	    var oldX2 = 500; //svg width is hardcoded as 600
 	    var	oldY1 = height -20//svg height is hardcoded as 600
 	    var oldY2 = height -20
 	    s.text(oldX1, height, "Defector")
@@ -74,8 +74,10 @@ $(function () { // this is a shortcut for document ready
 	    } //end of drawArc1
 	   
 	    // the next line, of course, assumes you have an element with id="next"
-	    $('.right_column, #next').click(function () {
-	    	$("#next").text("Next step")
+	   $('#next').click(function () {
+	    	$("#next span").text("Next step")
+	    	$('p').hide()
+	    	$('#content').css("display","block").text(data[counter].text)
 	        counter = (counter + 1) % data.length; // increment your counter
 	        // the modulus (%) operator resets the counter to 0
 	        // when it reaches the length of the array
