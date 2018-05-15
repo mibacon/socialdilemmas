@@ -10,7 +10,7 @@ body{
 }
 
 .selector {
-		padding-top: 10px;
+	padding-top: 10px;
 	width: 40vw;
 	display: flex;
 	flex-direction: column;
@@ -50,9 +50,9 @@ ul {
     list-style-type: none;
     margin-top: 10px;
     padding: 0;
-    line-height: 40px;
+    line-height: 30px;
     min-width: 250px;
-    font-size: 36px;
+    font-size: 26px;
     color: gray;
 }
 
@@ -162,7 +162,7 @@ a:hover{
 	color:#FFF;
 }
 .pagetitle{
-		font-size: 36px;
+		font-size: 26px;
 	font-weight: bold;
 }
 #subtitle {
@@ -170,7 +170,7 @@ a:hover{
 }
 .vs {
 	margin-top: 50px;
-	font-size: 36px;
+	font-size: 26px;
 	width: 200px;
 }
 svg {
@@ -182,7 +182,7 @@ svg {
 .legend {
 	display: flex;
 	flex-direction: row;
-	margin-top: 25px;
+	/*margin-top: 25px;*/
 }
 #score {
 	margin-left: 50px;

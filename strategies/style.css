@@ -26,9 +26,9 @@ ul {
     list-style-type: none;
     margin-top: auto;
     padding: 0;
-    line-height: 44px;
+    line-height: 40px;
     min-width: 250px;
-    font-size: 36px;
+    font-size: 30px;
     color: gray;
 }
 
@@ -81,15 +81,15 @@ li a.selected {
     color:#FFF;
 }
 .pagetitle{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
 }
 #subtitle, #content {
     margin-top: 5px;
-    font-size: 36px;
+    font-size: 30px;
     color: gray;
     width: 50vw;
-    line-height: 40px;
+    line-height: 30px;
     min-height: 150px;
 }
 
