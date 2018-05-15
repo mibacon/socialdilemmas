@@ -1,0 +1,32 @@
+[
+  {
+    "step": 0,
+    "player1": "d",
+    "player2": "c"
+  },
+  {
+    "step": 1,
+    "player1": "d",
+    "player2": "c"
+  },
+  {
+    "step": 2,
+    "player1": "d",
+    "player2": "c"
+  },
+  {
+    "step": 3,
+    "player1": "d",
+    "player2": "d"
+  },
+  {
+    "step": 4,
+    "player1": "d",
+    "player2": "c"
+  },
+  {
+    "step": 5,
+    "player1": "d",
+    "player2": "d"
+  }
+]

@@ -1,0 +1,28 @@
+body {
+	font-family: Helvetica
+}
+.content {
+	margin: 10vw;
+	height: 100%;
+	width: 50vw;
+}
+
+.intro{
+	margin-top: 40vh;
+	/*margin-left: 20vw;*/
+	font-size: 50px;
+
+}
+
+.subtitle {
+	font-size: 50px;
+	/*margin-left: 20vw;*/
+	color: #c8c8c8;
+	line-height: 48px;
+
+}
+
+a {
+	/*margin-left: 20vw;*/
+	margin-top: 150px;
+}

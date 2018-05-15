@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0} </style>
+    <script src="../snap.svg-min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="../jquery-3.3.1.min.js"></script>
+    <!-- <script src="http://d3js.org/d3.v4.js"></script> -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     </head>
+  
+
+  <body>
+<div class="top_navigation">
+    <span> Escaping Social Dilemmas </span>
+    <div id="links">
+      <a href='/games/' id="hit"> games</a>
+      <a href='/strategies'> strategies</a>
+      <a id="main" href='/main' class="active"> interaction</a>
+      <a href='/heat'> cooperate rate</a>
+    </div>
+    
+  </div>  
+  <div id="currentgame">
+    <img src="Stag.png">
+</div>
+        
+
+<div id="mycarousel" class="carousel slide" data-ride="carousel">
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <img class="img-responsive center-block" src="stag/stag-story-01.png" alt="">
+        <div class="carousel-caption">
+            <h3>You are a hunter...</h3>
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-02.png" alt="">
+        <div class="carousel-caption">
+            <h3>...who will meet up with a partner for your daily hunt.</h3>
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-03.png" alt="">
+        <div class="carousel-caption">
+            <h3>The forest is populated with both stags and hares. </h3>
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-04.png" alt="">
+        <div class="carousel-caption">
+            <h3>Stags, though, are much more valuable...</h3>
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-05.png" alt="">
+        <div class="carousel-caption">
+            <h3>but require two hunters to take down. </h3>
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-06.png" alt="">
+        <div class="carousel-caption">
+            <h3>Whereas hare can be hunted solo.    </h3>
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-07.png" alt="">
+        <div class="carousel-caption">
+            <h3>Before you set out for the day, you must choose your equipment. Do you trust that your buddy will come prepared to hunt stag? Or do you just set out to hunt hare on your own? </h3>
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-08.png" alt="">
+        <div class="carousel-caption">
+            <h3>Remember that your hunting partner has to undergo the same calculation.</h3>
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-09.png" alt="">
+        <div class="carousel-caption">
+           
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-10.png" alt="">
+        <div class="carousel-caption">
+           
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-11.png" alt="">
+        <div class="carousel-caption">
+            
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-12.png" alt="">
+        <div class="carousel-caption">
+            
+        </div>
+    </div>
+    <div class="item">
+        <img class="img-responsive center-block" src="stag/stag-story-13.png" alt="">
+        <div class="carousel-caption">
+           
+        </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel({
+              wrap: false,
+              interval:0
+            });
+    })
+    </script>
+
+  </body>
+  </html>

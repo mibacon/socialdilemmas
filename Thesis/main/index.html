@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="../snap.svg-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="../jquery-3.3.1.min.js"></script>
+    <!-- <script src="http://d3js.org/d3.v4.js"></script> -->
+     </head>
+  <body>
+
+  <script src="./test.js"></script>
+
+  <div class="container">
+  	<div class="selector">
+  		<div id="title"> Escaping Social Dilemmas</div>
+  		
+        <div class="buttons">
+	          <br>
+            <br>
+	          <span> select game </span> <br>
+	          <label for="PD"> 
+	          <input type = "radio" class="checkmark" name="game" id="PD" checked></input>
+	          <img src="PD.svg"> 
+	          </label>
+	          <label for="Stag"> 
+	          <input type = "radio" class="checkmark" name="game" id="Stag" >  </input>
+	          <img src="Stag.svg">  </label>
+	          <label for="Chicken"> 
+	          <input type = "radio" class="checkmark" name="game" id="Chicken">  </input>
+	          <img src="chicken.svg">  </label>
+	    </div>
+
+  		<div class="strategies">
+  			<ul>
+  			<span id="first"> select player </span>
+	          <li id="Cooperator" class="selected"> Cooperator </li>
+	          <li id="Defector"> Defector </li>
+	          <li id="Grudger"> Grudger </li>
+	          <li id="Tit For Tat"> TitForTat </li>
+	          <li id="Win-Stay Lose-Shift: C"> WinStay-LoseShift </li>
+	          <li id="Stochastic Cooperator"> Stochastic Cooperator </li>
+	          <li id="Bully"> Bully </li>
+	          <li id="Grumpy: Nice, 10, -10"> Grumpy </li>
+	          <li id="CollectiveStrategy"> Collective Strategy </li>
+	          <li id="Adaptive Pavlov 2011"> Adaptive Pavlov </li>
+	        </ul>
+	    </div>
+  		
+  		<div class="score"> 
+        <span> see player's score </span> <br>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+
+  	</div> <!-- end of selector -->
+
+  	<div class="viewer"> 
+  		<div class="top_navigation"> 
+	      <a href='/games/'> games</a>
+	      <a href='/strategies'> strategies</a>
+	      <a href='/main' id="hit"> interaction</a>
+	      <a href='/heat'> cooperate rate</a>
+	    </div>
+      <br>  
+      <br>
+  		<div class="pagetitle"> How do the strategies interact? </div>
+  		<p id="subtitle"> Who cooperates with who? Which strategies are the most successful? </p>
+  	
+  	<div class="vs"> versus </div>
+
+  	<div class="content">
+
+  		<svg id="svg"></svg>
+  		<svg id="svg0"></svg>
+        <svg id="svg1"></svg>
+        <svg id="svg2"></svg>
+        <svg id="svg3"></svg>
+        <svg id="svg4"></svg>
+        <svg id="svg5"></svg>
+        <svg id="svg6"></svg>
+        <svg id="svg7"></svg>
+        <svg id="svg8"></svg>
+  	</div>
+
+  	<div class="legend">
+      <div id="decisions">
+        <span> decision types </span>
+      <img src="cooperate.png">
+      <span> cooperate </span>
+      <img src="defect.png">
+      <span> defect </span>
+    </div>
+      <br>
+      <div id="score" style="display:none;"> 
+
+        <div id="scoreLegend">
+          <span id="scorelabel"> more sucessful &#8594</span>
+        <img src="color.svg">
+        
+      </div>
+      </div>
+
+
+  	</div> <!-- end of viewer -->
+
+
+  </div> <!-- end of container -->
+</body>
+</html>

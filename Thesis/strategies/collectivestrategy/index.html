@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="../../snap.svg-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <script src="../../jquery-3.3.1.min.js"></script>
+
+  </head>
+  <body>
+        <div class="top_navigation">
+    <span> Escaping Social Dilemmas </span>
+    <div id="links">
+      <a href='/games/'> games</a>
+      <a href='/strategies' id="hit"> strategies</a>
+      <a id="main" href='/main'> interaction</a>
+      <a href='/heat'> cooperate rate</a>
+    </div>
+  </div>  
+    <div class="container">
+      <button onclick="location.href='/strategies/grumpy/'" type="button"> prev. strategy 
+      <svg width="18" height="18"><path d="M11.56 5.56L10.5 4.5 6 9l4.5 4.5 1.06-1.06L8.12 9z"/></svg> </button>
+      <div class="first_column">
+        <div id="title">
+          <h1> Collective Strategy </h1>
+          <p> Cooperates in first move, then defects. If partner makes same move, cooperates until partner defects. Then defects indefinitely. </p>
+        </div> 
+        <div class="bottom">
+          <div id ="content"> </div>
+          <div id="next"> See strategy play out </div>
+        </div> 
+      </div>
+
+      <div class="right_column">
+
+    <script src="./colls.js"></script>
+      <svg margin-left = 20px id="svg"></svg>
+    </div>
+
+  <button onclick="location.href='/strategies/adaptivepavlov/'" type="button"> next strategy 
+    <svg width="18" height="18"><path d="M7.5 4.5L6.44 5.56 9.88 9l-3.44 3.44L7.5 13.5 12 9z"/></svg> </button>
+  </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,163 @@
+body {
+    font-family: Helvetica;
+    
+}
+.container {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.selector {
+    padding-top: 10px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    background-color: #000;
+    height:100vh;
+    align-content: space-between;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: auto;
+    padding: 0;
+    line-height: 44px;
+    min-width: 250px;
+    font-size: 36px;
+    color: gray;
+}
+
+span#first {
+    font-size: 14px;
+} 
+
+li a {
+    text-decoration: none;
+    color: gray
+}
+li a:hover {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+li a.selected {
+    color:#FFF;
+
+}
+li a #hit {
+    border-bottom: 4px solid;
+    color:white;
+}
+
+.viewer{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_navigation a {
+    display: inline;
+    text-decoration: none;
+    color:#000;
+    margin-right: 50px;
+}
+
+.top_navigation a:hover{
+    border-bottom: 4px solid;
+}
+
+
+#hit {
+    border-bottom: 4px solid;
+}
+
+
+
+    
+#title {
+    color:#FFF;
+}
+.pagetitle{
+    font-size: 36px;
+    font-weight: bold;
+}
+#subtitle {
+    margin-top: 5px;
+    font-size: 36px;
+    color: gray;
+    width: 50vw;
+    line-height: 40px;
+}
+
+.graphcontent {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#event {
+    margin: 50px;
+    width: 50vw;
+}
+/*#firstTitle {
+    font-size: 30px;
+}*/
+
+/*ul {
+    list-style-type: none;
+    padding-left: 0px;
+    line-height: 30px;
+}
+
+.container {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     /*align-items: stretch;
+     /*align-content:space-between;
+}
+
+.first_column {
+    /*align-self: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    /*align-content:space-between;
+    height:90vh;
+    /*align-items: center;*//*justify-content: space-between;
+    max-width: 45vw;
+    min-width: 45vw;
+    justify-content: space-between;
+}*/
+
+#next {
+    margin-top: 20px;
+}
+
+#next:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+#contet {
+    margin:50px;
+}
+#svg {
+    width:90vh;
+    height:90vh;
+    cursor: pointer;
+}
+button {
+    border:none;
+    opacity: 0.1;
+    max-width: 55px;
+    height: 90vh;
+}
+button:hover {
+    opacity: .9
+}

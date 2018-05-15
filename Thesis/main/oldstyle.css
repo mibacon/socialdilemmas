@@ -1,0 +1,181 @@
+body{
+	margin: 0;
+	font-family: Helvetica
+}
+.top_navigation {
+	margin:10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#hit {
+    font-weight: bold;
+}
+#links > a {
+	padding-left: 50px;
+	text-decoration: none;
+	color:#000;
+}
+.active {
+	/*font-weight: bold;*/
+	text-decoration: underline;
+}
+a:hover{
+	font-weight: bold;
+}
+.header {
+	margin-left: 20px;
+	
+}
+.header #title{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top:20px;
+	margin-bottom: 5px
+}
+.header p {
+	margin-top: 5px;
+}
+
+.container{
+	margin-left: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap
+}
+.buttons{
+	/*float: left;*/
+	display:inline-block;
+	clear: both;
+}
+
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+  opacity:.5;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  opacity:1;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0;
+    line-height: 30px;
+    min-width: 250px;
+    font-size: 20px;
+}
+
+span#first {
+	font-size: 14px
+} 
+
+
+li:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+li.selected {
+	font-weight: bold
+}
+
+.vs {
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	font-size: 72px;
+	width: 200px;
+}
+svg {
+	width: 27vh;
+	height: 27vh;
+	margin: 5px;
+}
+
+.first_column {
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #8856a7;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #8856a7;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.legend{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-shrink: 3;
+	max-width:100px;
+	margin: 0px;
+}
+#scoreLegend {
+	display: flex;
+	flex-direction: row
+}
+#scorelabel {
+	margin-top: 10px;
+	writing-mode: vertical-rl;
+	text-orientation: mixed
+}

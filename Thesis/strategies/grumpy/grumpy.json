@@ -1,0 +1,109 @@
+[
+  {
+    "step": 0,
+    "player1": "c",
+    "player2": "c",
+    "text": "Grumpy starts off cooperating"
+  },
+  {
+    "step": 1,
+    "player1": "c",
+    "player2": "d",
+    "text": "Partner cooperated in previous round, grumpiness counter is at 0, so Grumpy cooperates this round"
+  },
+  {
+    "step": 2,
+    "player1": "c",
+    "player2": "d",
+    "text": "Partner defected in previous round, grumpiness counter is at 1. Mean threshold not hit, so Grumpy cooperates this round"
+  },
+  {
+    "step": 3,
+    "player1": "c",
+    "player2": "d",
+    "text": "Partner defected in previous round, grumpiness counter is at 2. Mean threshold not hit, so Grumpy cooperates this round"
+  },
+  {
+    "step": 4,
+    "player1": "c",
+    "player2": "d",
+    "text":  "Partner defected in previous round, grumpiness counter is at 3. Mean threshold not hit, so Grumpy cooperates this round"
+  },
+  {
+    "step": 5,
+    "player1": "c",
+    "player2": "d",
+    "text":  "Partner defected in previous round, grumpiness counter is at 4. Mean threshold not hit, so Grumpy cooperates this round"
+  },
+  {
+    "step": 6,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner defected in previous round, grumpiness counter is at 5. MEAN THRESHOLD HIT, so Grumpy defects this round"
+  },
+  {
+    "step": 7,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, grumpiness counter is at 4. Nice threshold not hit, so Grumpy defects this round"
+  },
+  {
+    "step": 8,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, grumpiness counter is at 3. Nice threshold not hit, so Grumpy defects this round"
+  },
+  {
+    "step": 9,
+    "player1": "d",
+    "player2": "c",
+    "text":"Partner cooperated in previous round, grumpiness counter is at 2. Nice threshold not hit, so Grumpy defects this round"
+  },
+  {
+    "step": 10,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, grumpiness counter is at 1. Nice threshold not hit, so Grumpy defects this round"
+  },   
+  {
+    "step": 11,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, grumpiness counter is at 0. Nice threshold not hit, so Grumpy defects this round"
+  },
+  {
+    "step": 11,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, grumpiness counter is at -1. Nice threshold not hit, so Grumpy defects this round"
+  },
+  {
+    "step": 11,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, grumpiness counter is at -2. Nice threshold not hit, so Grumpy defects this round"
+  },
+  {
+    "step": 11,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, grumpiness counter is at -3. Nice threshold not hit, so Grumpy defects this round"
+  },
+  {
+    "step": 11,
+    "player1": "d",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, grumpiness counter is at -4. Nice threshold not hit, so Grumpy defects this round"
+  },
+  {
+    "step": 11,
+    "player1": "c",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, grumpiness counter is at -5. NICE THRESHOLD HIT, so Grumpy cooperates this round"
+  },{
+    "step": 11,
+    "player1": "c",
+    "player2": "c",
+    "text": "Partner cooperated in previous round, grumpiness counter is at -6. NICE THRESHOLD HIT, so Grumpy cooperates this round"
+  }
+]

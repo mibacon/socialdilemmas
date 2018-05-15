@@ -1,0 +1,89 @@
+body {
+  font-family: Helvetica
+}
+.top_navigation {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#hit {
+    font-weight: bold;
+}
+
+.top_navigation a {
+    padding-left: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+}
+a:hover {
+    font-weight: bold;
+}
+
+rect.bordered {
+  stroke: #FFF;
+  stroke-width:2px;
+}
+.header {
+  margin-left: 20px;
+  
+}
+.header #title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:20px;
+  margin-bottom: 10px
+}
+.header p {
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  
+}
+.tooltip{
+  font-family: Helvetica;
+  font-size: 12px;
+  position: absolute;			
+  text-align: center;			
+  width: 40px;					
+  height: 14px;					
+  padding: 2px;				
+  background: #FFF;
+  border: none;		
+  pointer-events: none;			
+}
+
+text.mono {
+  font-size: 9pt;
+  font-family: Helvetica, courier;
+  fill: #000;
+}
+
+.dataset-button{
+  background-position: 50% 50%;
+  height: 100px;
+  width: 100px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 50%
+}
+#Chicken {
+  background:transparent url('Chicken.png') no-repeat center top;
+  background-size: 100px 100px;
+}
+
+#PD {
+  background:transparent url('PD.png') no-repeat center top;
+  background-size: 100px 100px;
+}
+
+#Stag {
+   background:transparent url('Stag.png') no-repeat center top;
+   background-size: 100px 100px;
+}
