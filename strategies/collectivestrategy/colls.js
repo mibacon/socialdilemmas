@@ -4,7 +4,7 @@ $(function () { // this is a shortcut for document ready
 	
 	var counter = 0;
 	    
-	var height = (document.documentElement.clientHeight)*.9
+	var height = (document.documentElement.clientHeight)*.75
 	
 	var ry = 50
     var rx = 50
@@ -66,8 +66,8 @@ $(function () { // this is a shortcut for document ready
 		} //end of drawArc	
 			
 
-					var oldX1 = 250
-				    var oldX2 = 400; //svg width is hardcoded as 600
+					var oldX1 = 300
+				    var oldX2 = 500; //svg width is hardcoded as 600
 				    var	oldY1 = height-20;//svg height is hardcoded as 600
 				    var	oldY2 = height-20;
 				    s.text(oldX1, height, "Collective Strategy")
@@ -76,8 +76,10 @@ $(function () { // this is a shortcut for document ready
 
 	    $.getJSON("./colls.json", function(data) {
     		
-    			$('.right_column, #next').click(function () {
-    				$("#next").text("Next step")
+    		$('#next').click(function () {
+			    $("#next span").text("Next step")
+			    $('p').hide()
+			    $('#content').css("display","block").text(data[counter].text)
     				console.log('counter is ' + counter)
     				
     				$(".circle").attr({visibility: "hidden"})
@@ -95,8 +97,8 @@ $(function () { // this is a shortcut for document ready
 						$("#content").attr({visibility:"hidden"})
 					    counter = counter + 1
 			        
-			        	oldX1 = 250
-			        	oldX2 = 400
+			        	oldX1 = 300
+			        	oldX2 = 500
 			        	oldY1 = height-20;//svg height is hardcoded as 600
 				    	oldY2 = height-20;
 			        } else if (counter < 15) {
@@ -120,46 +122,7 @@ $(function () { // this is a shortcut for document ready
     				
     			})
     			
-	    // 		if (counter < data[0].length-1) {
-					// $(".circle").attr({visibility: "hidden"})
-			  //      drawArc(data[0][counter].player1, "player1");
-			  //      drawArc(data[0][counter].player2, "player2");// the new incremented value
-			       
-					// counter = (counter + 1) //% data[0].length;
-		    	
-			  //  	// $('#graph').attr("src", data[counter].image)
-			  //  	$('#content').text(data[0][counter].text)
-		    	
-		   //     console.log('counter is ' + counter)
-		   //     console.log('data length is ' + data[0].length)
-	    // 		} else {
-	    // 			
-			       
-					// counter = (counter + 1) % data[1].length;
-	    // 		}
-	    	 	
-		      	// }); // end of click
-		      	
-		   //   $('div').click(function () {
-	    // 		if (counter > data[0].length-1) {
-					// $(".circle").attr({visibility: "hidden"})
-			  //      drawArc(data[1][counter].player1, "player1");
-			  //      drawArc(data[1][counter].player2, "player2");// the new incremented value
-			       
-					// counter = (counter + 1) % data[0].length;
-		    	
-			  //  	// $('#graph').attr("src", data[counter].image)
-			  //  	$('#content').text(data[0][counter].text)
-		    	
-		   //     console.log('counter is ' + counter)
-		   //     console.log('data length is ' + data[0].length)
-	    // 		}
-		      	
-		   //   	if (counter == 0) {
-		   // 		
-		   //   	}
-		    	
-	    	// } //end of for
+	   
 		})// end of data
 	
 		

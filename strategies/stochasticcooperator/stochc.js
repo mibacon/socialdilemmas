@@ -2,13 +2,13 @@ $(function () { // this is a shortcut for document ready
     
 	var s = Snap("#svg")
 	
-	var height = (document.documentElement.clientHeight)*.9
+	var height = (document.documentElement.clientHeight)*.5
 
     $.getJSON("./stochc.json", function(data) {
 	    var counter = 0;
 	    
-		var oldX1 = 200
-	    var oldX2 = 400; //svg width is hardcoded as 600
+		var oldX1 = 300
+	    var oldX2 = 500; //svg width is hardcoded as 600
 	    var	oldY1 = height-20;//svg height is hardcoded as 600
 	    var	oldY2 = height-20;
 	    s.text(oldX1, height, "Stochastic Cooperator")
@@ -95,9 +95,10 @@ $(function () { // this is a shortcut for document ready
 
 	    
 	    
-	    $('.right_column, #next').click(function () {
-	    	$("#next").text("Next step")
-	    	$('#content').text(data[counter].text)
+	    $('#next').click(function () {
+	    	$("#next span").text("Next step")
+	    	$('p').hide()
+	    	$('#content').css("display","block").text(data[counter].text)
 	    	
 	        console.log(counter)
 	    	$(".circle").attr({visibility: "hidden"})

@@ -1,4 +1,4 @@
- var margin = { top: 90, right: 0, bottom: 20, left: 150 },
+ var margin = { top: 110, right: 0, bottom: 20, left: 275 },
           width = 960 - margin.left - margin.right,
           height = 600 - margin.top - margin.bottom,
           gridSize = Math.floor(height / 11),
@@ -66,7 +66,7 @@
             .attr("dx", "-.8em")
             .attr("dy", ".15em")
             .style("transform", function(d, i){
-              return "translate(" + ((i * gridSize)+ 25)+ "px, -16px) rotate(-65deg)"})
+              return "translate(" + ((i * gridSize)+ 25)+ "px, -24px) rotate(-65deg)"})
             .attr("class", "xLabel mono")
             ;
       

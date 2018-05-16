@@ -13,7 +13,7 @@ html, body {
 
 .selector {
 	padding-top: 10px;
-	width: 22vw;
+	width: 300px;
 	display: flex;
 	flex-direction: column;
 	padding-left: 20px;
@@ -55,11 +55,17 @@ html, body {
 	color:#FFF;
 }
 .pagetitle{
-		font-size: 36px;
+	font-size: 30px;
 	font-weight: bold;
 }
 #subtitle {
 	margin-top: 5px;
+	width: 50vw;
+	font-size: 30px;
+	/*margin-left: 20vw;*/
+	color: #c8c8c8;
+	line-height: 30px;
+
 }
 
 
@@ -82,8 +88,9 @@ rect.bordered {
 }
 
 text.mono {
-  font-size: 9pt;
+  font-size: 30px;
   font-family: Helvetica, courier;
+  overflow: visible;
   fill: #000;
 }
 

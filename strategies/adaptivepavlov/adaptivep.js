@@ -4,7 +4,7 @@ $(function () { // this is a shortcut for document ready
 	
 	var counter = 0;
 	    
-	var height = (document.documentElement.clientHeight)*.9
+	var height = (document.documentElement.clientHeight)*.5
 	var width = (document.documentElement.clientWidth)*.45
 	
 	var ry = 30
@@ -76,8 +76,10 @@ $(function () { // this is a shortcut for document ready
 
 	    $.getJSON("./adaptiveP.json", function(data) {
     		
-    			$('.right_column, #next').click(function () {
-    				$("#next").text("Next step")
+			    $('#next').click(function () {
+			    	$("#next span").text("Next step")
+			    	$('p').hide()
+			    	$('#content').css("display","block").text(data[counter].text)
     				console.log('counter is ' + counter)
     				
     				$(".circle").attr({visibility: "hidden"})

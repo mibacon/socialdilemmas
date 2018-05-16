@@ -27,6 +27,7 @@ body{
 	display:inline-block;
 	clear: both;
 	color: gray;
+	font-size: 14px;
 }
 
 label img {
@@ -72,11 +73,11 @@ li.selected {
 
 .score {
 	color:gray;
-
+	font-size: 14px;
 }
 
 .switch {
-	margin-top: 5px;
+  margin-top: 5px;
   position: relative;
   display: inline-block;
   width: 60px;
@@ -162,14 +163,19 @@ a:hover{
 	color:#FFF;
 }
 .pagetitle{
-		font-size: 26px;
+	font-size: 26px;
 	font-weight: bold;
 }
 #subtitle {
 	margin-top: 5px;
+	font-size: 26px;
+	/*margin-left: 20vw;*/
+	color: #c8c8c8;
+	line-height: 30px;
+
 }
 .vs {
-	margin-top: 50px;
+	margin-top: 26px;
 	font-size: 26px;
 	width: 200px;
 }
@@ -182,6 +188,7 @@ svg {
 .legend {
 	display: flex;
 	flex-direction: row;
+	font-size: 14px;
 	/*margin-top: 25px;*/
 }
 #score {

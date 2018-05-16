@@ -10,22 +10,44 @@
 
   </head>
   <body>
-        <div class="top_navigation">
-    <span> Escaping Social Dilemmas </span>
-    <div id="links">
-      <a href='/games/'> games</a>
-      <a href='/strategies' id="hit"> strategies</a>
-      <a id="main" href='/main'> interaction</a>
-      <a href='/heat'> cooperate rate</a>
-    </div>
-  </div>  
+
     <div class="container">
-      <button onclick="location.href='/strategies/winstayloseshift/'" type="button"> prev. strategy 
-      <svg width="18" height="18"><path d="M11.56 5.56L10.5 4.5 6 9l4.5 4.5 1.06-1.06L8.12 9z"/></svg> </button>
-      <div class="first_column">
-        <div id="title">
-          <h1> Stochastic Cooperator </h1>
-          p> Evaluates previous round's plays and determines probability of cooperating. Here the matrix is:
+    <div class="selector">
+      <div id="title"> Escaping Social Dilemmas</div>
+
+
+      <div class="strategies">
+        <br>
+        <br>
+        <ul>
+<!--         <span id="first"> select strategy </span> -->
+           <li> <a href='../cooperator/' >Cooperator</a></li>
+            <li> <a href='../defector/'>Defector</a></li>
+            <li> <a href='../grudger/' >Grudger</a></li>
+            <li> <a href='../titfortat/'>TitForTat </a></li>
+            <li> <a href='../winstayloseshift/'>WinStay-LoseShift</a></li>
+            <li> <a href='../stochasticcooperator/' class="hit">Stochastic Cooperator</a></li>
+            <li> <a href='../bully/'>Bully</a></li>
+            <li> <a href='../grumpy/'>Grumpy</a></li>
+            <li> <a href='../collectivestrategy/'>Collective Strategy </a></li>
+            <li> <a href='../adaptivepavlov/'>Adaptive Pavlov </a></li>
+          </ul>
+      </div>
+
+    </div>    <!-- end of selector -->
+
+    <div class="viewer"> 
+      <div class="top_navigation"> 
+        <a href='../../games/'> games</a>
+        <a href='../../strategies' id="hit"> strategies</a>
+        <a href='../../main' > interaction</a>
+        <a href='../../heat'> cooperate rate</a>
+      </div>
+
+      <br>  
+      <br>
+      <div class="pagetitle">Stochastic Cooperator </div>
+      <p id="subtitle"> Evaluates previous round's plays and determines probability of cooperating. Here the matrix is: </p>
     <table>
        <tr>
          <th>Previous Round </th>
@@ -57,28 +79,21 @@
         <td> cooperated</td>
         <td> 25% </td>
       </tr> 
-      </table>
-        </p>
+      </table>  
+      
+       <script src="./stochc.js"></script>
 
-        </div> 
-        <div class="bottom">
-          <div id ="content"> </div>
-          <div id="next"> See strategy play out </div>
-        </div> 
+      <div class="graph">
+      
+        <div id="content" style="display: none"></div>
+        <div id="next">  <span> See strategy play out </span></div>
+
+        <svg margin-left = 20px id="svg"></svg>        
       </div>
+    </div> <!-- end of viewer -->
+  </div> 
 
-      <div class="right_column">
-
-    <script src="./stochc.js"></script>
-      <svg margin-left = 20px id="svg"></svg>
-    </div>
-
-  <button onclick="location.href='/strategies/grumpy/'" type="button"> next strategy 
-    <svg width="18" height="18"><path d="M7.5 4.5L6.44 5.56 9.88 9l-3.44 3.44L7.5 13.5 12 9z"/></svg> </button>
-  </div>
-
-
-
+      
 
   </body>
 </html>
