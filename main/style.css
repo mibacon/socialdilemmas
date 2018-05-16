@@ -11,7 +11,7 @@ body{
 
 .selector {
 	padding-top: 10px;
-	width: 40vw;
+	width: 300px;
 	display: flex;
 	flex-direction: column;
 	padding-left: 20px;
