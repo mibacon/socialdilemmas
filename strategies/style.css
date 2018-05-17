@@ -95,7 +95,10 @@ li a.selected {
 }
 
 
-
+table, th, td {
+    font-size: 14px;
+    text-align: left;
+}
 .graph{
     display: flex;
     flex-direction: column;
