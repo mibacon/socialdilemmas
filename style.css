@@ -23,6 +23,12 @@ body {
 }
 
 a {
-	/*margin-left: 20vw;*/
+	text-decoration: none;
 	margin-top: 150px;
+	color:black;
 }
+
+a span:hover {
+	border-bottom: 4px solid;
+}
+
