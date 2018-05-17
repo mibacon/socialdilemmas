@@ -63,7 +63,7 @@ $(function () { // this is a shortcut for document ready
 							circle.animate({r:5}, 500, mina.linear)
 						}, 1000); 
 				} else {
-					if (counter == 3) {
+					if (counter == 1) {
 						var circle = s.circle(oldX,oldY, 0).attr({stroke: "#c8c8c8", fill: "#FFF", filter: glow})
 						setTimeout(function() {
 							circle.animate({r:5}, 500, mina.linear)

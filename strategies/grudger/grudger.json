@@ -6,18 +6,6 @@
     "text": "Grudger starts off cooperating"
   },
   {
-    "step": 1,
-    "player1": "c",
-    "player2": "c",
-    "text": "Partner cooperated in previous round, so Grudger cooperates this round"
-  },
-  {
-    "step": 2,
-    "player1": "c",
-    "player2": "c",
-    "text": "Partner cooperated in previous round, so Grudger cooperates this round"
-  },
-  {
     "step": 3,
     "player1": "c",
     "player2": "d",

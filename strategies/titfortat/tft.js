@@ -69,8 +69,8 @@ $(function () { // this is a shortcut for document ready
 						var circle = s.circle(oldX,oldY, 0).attr({fill: "#FFF", stroke: "#c8c8c8", filter: glow}).addClass("circle")
 						setTimeout(function() {
 							circle.animate({r:5}, 500, mina.linear)
-						}, 1500); 
-						
+						}, 1000); 
+					console.log('counter is greater than 0')	
 					}
 				}
 			} 

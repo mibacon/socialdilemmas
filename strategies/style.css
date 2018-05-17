@@ -86,11 +86,12 @@ li a.selected {
 }
 #subtitle, #content {
     margin-top: 5px;
+    margin-bottom: 0px;
     font-size: 30px;
     color: gray;
     width: 50vw;
     line-height: 30px;
-    min-height: 150px;
+    min-height: 100px;
 }
 
 
@@ -102,7 +103,7 @@ li a.selected {
 
 }
 #next {
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: bold;
 }
 
@@ -110,14 +111,11 @@ li a.selected {
     border-bottom: 4px solid;
     cursor: pointer;
 }
-#contet {
-    margin:50px;
-}
+
 
 #svg {
-    height: 70vh;
-    cursor: pointer;
-    overflow: visible;
+    height: 50vh;
+    width: 70vw;
 }
 button {
     border:none;
