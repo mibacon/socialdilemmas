@@ -11,7 +11,7 @@ body{
 
 .selector {
 	padding-top: 10px;
-	width: 300px;
+	width: 225px;
 	display: flex;
 	flex-direction: column;
 	padding-left: 20px;
@@ -180,8 +180,8 @@ a:hover{
 	width: 200px;
 }
 svg {
-	width: 27vh;
-	height: 27vh;
+	width: 25vh;
+	height: 25vh;
 	margin: 5px;
 }
 
