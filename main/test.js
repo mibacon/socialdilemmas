@@ -3,7 +3,7 @@ var map = function(n, start1, stop1, start2, stop2) {
 };
 
 
-var height = (document.documentElement.clientHeight)*.3
+var height = (document.documentElement.clientHeight)*.25
 var width = height
 
 // var width = 200;
